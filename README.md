@@ -33,7 +33,7 @@ The journey is divided into major stages:
 ---
 
 ## 🗂️ Repository Structure
-<pre><code>```text
+<pre><code>
 learn-ai/
 ├── 01-python-foundations/
 │ ├── notes/
