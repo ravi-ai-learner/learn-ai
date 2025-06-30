@@ -35,46 +35,74 @@ The journey is divided into major stages:
 ## 🗂️ Repository Structure
 <pre><code>
 learn-ai/
+│
 ├── 01-python-foundations/
-│ ├── notes/
-│ ├── exercises/
-│ ├── projects/
-│ └── book/
+│   ├── books/
+│   │   ├── learning-python/
+│   │   └── learning-spark/
+│   ├── courses/
+│   │   └── 100-days-of-code/
+│   ├── exercises/
+│   ├── projects/
+│   └── notes/
 │
 ├── 02-machine-learning/
-│ ├── notes/
-│ ├── notebooks/
-│ ├── datasets/
-│ ├── projects/
-│ └── book/
+│   ├── books/
+│   │   ├── islr/
+│   │   └── hands-on-ml/
+│   │   └── ml-design-patterns/
+│   │   └── designing-ml-systems/
+│   │   └── practical-mlops/
+│   ├── courses/
+│   │   └── coursera-ml-andrew-ng/
+│   ├── interviews/
+│   ├── projects/
+│   ├── notebooks/
+│   ├── datasets/
+│   └── notes/
 │
 ├── 03-time-series/
-│ ├── notes/
-│ ├── notebooks/
-│ ├── datasets/
-│ ├── projects/
-│ └── book/
+│   ├── books/
+│   ├── projects/
+│   ├── datasets/
+│   └── notes/
 │
 ├── 04-deep-learning/
-│ ├── notes/
-│ ├── ann/
-│ ├── cnn/
-│ ├── rnn/
-│ ├── datasets/
-│ ├── projects/
-│ └── book/
+│   ├── books/
+│   │   └── deep-learning/
+│   ├── ann/
+│   ├── cnn/
+│   ├── rnn/
+│   ├── projects/
+│   ├── datasets/
+│   └── notes/
 │
 ├── 05-gen-ai-llms/
-│ ├── notes/
-│ ├── rag/
-│ ├── agents/
-│ ├── llms/
-│ ├── notebooks/
-│ ├── projects/
-│ └── book/
+│   ├── papers/
+│   ├── notebooks/
+│   ├── projects/
+│   ├── agents/
+│   ├── rag/
+│   ├── llms/
+│   └── notes/
+│
+├── 06-dsa-interviews/
+│   ├── data-structures/
+│   ├── algorithms/
+│   ├── leetcode/
+│   ├── system-design/
+│   ├── ml-interview-prep/
+│   └── notes/
+│
+├── 07-kaggle-projects/
+│   ├── titanic/
+│   ├── house-prices/
+│   ├── competitions/
+│   └── datasets/
 │
 ├── README.md
 └── requirements.txt
+
 </code></pre>
 
 
