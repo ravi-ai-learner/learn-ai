@@ -16,15 +16,15 @@ The journey is divided into major stages:
 
 ### 2. Machine Learning
 > Focus: Supervised & unsupervised learning, model evaluation  
-> Resources: *Introduction to Statistical Learning (ISLR)*, *Hands-On ML with Scikit-Learn & TensorFlow*
+> Resources: *Introduction to Statistical Learning*, *Hands-On ML with Scikit-Learn & TensorFlow*
 
 ### 3. Time Series Forecasting
 > Focus: Classical models (ARIMA, SARIMA), feature engineering, seasonality  
 > Resources: Forecasting courses, notebooks, and projects
 
 ### 4. Deep Learning
-> Focus: ANN, CNN, RNN, model training & tuning  
-> Resources: *Deep Learning with Python* by François Chollet
+> Focus: ANN, CNN, RNN, model training and tuning  
+> Resources: *Deep Learning with Python* by François
 
 ### 5. Generative AI & LLMs
 > Focus: Language models, RAG, agents, prompt engineering  
@@ -48,7 +48,7 @@ learn-ai/
 │
 ├── 02-machine-learning/
 │   ├── books/
-│   │   ├── islr/
+│   │   ├── isl/
 │   │   └── hands-on-ml/
 │   │   └── ml-design-patterns/
 │   │   └── designing-ml-systems/
@@ -77,19 +77,19 @@ learn-ai/
 │   ├── datasets/
 │   └── notes/
 │
-├── 05-gen-ai-llms/
+├── 05-gen-ai-LLMs/
 │   ├── papers/
 │   ├── notebooks/
 │   ├── projects/
 │   ├── agents/
-│   ├── rag/
-│   ├── llms/
+│   ├── RAG/
+│   ├── LLMs/
 │   └── notes/
 │
 ├── 06-dsa-interviews/
 │   ├── data-structures/
 │   ├── algorithms/
-│   ├── leetcode/
+│   ├── LeetCode/
 │   ├── system-design/
 │   ├── ml-interview-prep/
 │   └── notes/
@@ -108,7 +108,7 @@ learn-ai/
 
 Each folder includes:
 - 📒 Notes & summaries
-- 🧪 Jupyter notebooks & code
+- 🧪 Jupyter notebooks and code
 - 📂 Datasets (or download links)
 - 💡 Projects or case studies
 - 📚 Book-specific chapters (optional)
@@ -117,7 +117,7 @@ Each folder includes:
 
 ## 📌 Goals
 
-- Build deep understanding of core AI principles
+- Build a deep understanding of core AI principles
 - Document progress for revision and future reference
 - Develop a portfolio of hands-on projects
 - Prepare for applied work and future research
