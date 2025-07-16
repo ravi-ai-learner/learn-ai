@@ -1,6 +1,7 @@
-# 🧠 AI Learning Plan – Weekly Breakdown
+# 🧠 Learn AI – Weekly Learning Journey
 
-This document outlines a simplified weekly plan to complete the AI learning journey using foundational and modern books.  
+This document outlines a simplified, book-based plan for learning AI in a structured way over ~1.5 years.
+
 Each week assumes:  
 - ✅ 1 hour of reading  
 - ✅ 1 hour of hands-on coding  
@@ -56,6 +57,14 @@ Each week assumes:
 
 ---
 
-### 🧮 Total Duration: **79 Weeks (~1.5 years)**
+## 📊 Total Duration: **79 Weeks (~1.5 Years)**
 
-> Plan is flexible — buffer weeks can be added for projects, reviews, or deeper dives.
+> You can extend this timeline with review weeks, capstone projects, or deeper exploration based on personal goals.
+
+---
+
+## 📌 Suggestions
+
+- Feel free to overlap smaller books or stages based on comfort.
+- Keep a weekly journal or Git commit log of learnings.
+- Add project weeks between books if needed.

@@ -1,47 +1,51 @@
-# 📚 Learn AI – My Journey into Artificial Intelligence
+# 📚 Learn AI – A Structured, Book-Based Journey into Artificial Intelligence
 
-This repository documents my structured, book-based journey to **master Artificial Intelligence** — from Python and traditional Machine Learning to Deep Learning, Generative AI, and MLOps.
+This repository documents my structured, book-based journey to **master Artificial Intelligence**, covering Python foundations, traditional Machine Learning, Deep Learning, Generative AI, and MLOps.
 
-I have 13+ years of total experience, in which recent 6+ years is in traditional ML, but this time I’m taking a **clean, end-to-end learning path** with books, hands-on coding, and real-world projects.
+I bring 13+ years of experience, including 6+ years in ML. But this time, I’m taking a **clean-slate, end-to-end approach** with a strong focus on:
+- 📖 Book-based learning
+- 💻 Hands-on coding
+- 📁 Real-world mini projects
+- 🧠 Conceptual depth and system-level thinking
 
 ---
 
 ## 🧭 Learning Roadmap
 
-The journey is divided into 6 key stages:
+The journey is divided into six progressive stages:
 
-### 1. Python Foundations
-> **Focus:** Programming fundamentals, scripting, OOP  
+### 1. 🐍 Python Foundations
+> **Focus:** Core Python, OOP, scripting, data manipulation  
 > **Books:**
 > - *Learning Python* by Mark Lutz  
 > - *Data Science from Scratch* by Joel Grus
 
-### 2. Machine Learning
-> **Focus:** Supervised & unsupervised learning, model evaluation  
+### 2. 🤖 Machine Learning
+> **Focus:** Core ML algorithms, evaluation, applied workflows  
 > **Books:**
-> - *An Introduction to Statistical Learning (Python Edition)*  
-> - *Hands-On ML with Scikit-Learn, Keras & TensorFlow* 
+> - *Introduction to Statistical Learning (Python Ed.)*  
+> - *Hands-On ML with Scikit-Learn, Keras & TensorFlow*  
 > - *Regression and Other Stories*
 
-### 3. Time Series Forecasting
-> **Focus:** Classical models (ARIMA, SARIMA), feature engineering  
+### 3. 📈 Time Series Forecasting
+> **Focus:** ARIMA, seasonality, LSTM forecasting, Prophet  
 > **Books:**
 > - *Time Series Forecasting in Python* by Marco Peixeiro
 
-### 4. Deep Learning
-> **Focus:** ANN, CNN, RNN, model tuning  
+### 4. 🧠 Deep Learning
+> **Focus:** ANN, CNN, RNN, model tuning and best practices  
 > **Books:**
 > - *Deep Learning with Python* by François Chollet
 
-### 5. Generative AI & LLMs
-> **Focus:** Transformers, LLMs, prompt engineering, RAG, agents  
+### 5. 💬 Generative AI & LLMs
+> **Focus:** Transformers, prompt engineering, RAG, LLM agents  
 > **Books:**
 > - *NLP with Transformers*  
 > - *Generative Deep Learning*  
 > - *Building LLMs for Production*
 
-### 6. MLOps & System Design
-> **Focus:** Production systems, deployment, best practices  
+### 6. ⚙️ MLOps & ML System Design
+> **Focus:** Scalable systems, deployment, CI/CD, production tools  
 > **Books:**
 > - *Designing Machine Learning Systems*  
 > - *Practical MLOps*
@@ -102,47 +106,48 @@ learn-ai/
 │   ├── house-prices/
 │   └── other-competitions/
 │
-├── learning-plan.md      ← 📅 Daily study/coding breakdown
+├── LEARNING-JOURNEY.md     ← 📅 Weekly reading plan
 ├── README.md
 └── requirements.txt
 </code></pre>
 
 ---
 
-## 📅 Learning Plan
+## 📅 Learning Journey Plan
 
-A detailed day-by-day breakdown is available in [`learning-plan.md`](learning-plan.md), including:
-- 📖 Daily reading chapters from each book
-- 💻 Corresponding code notebooks or mini-projects
-- 🛑 Buffer/review days every 5–7 days
+A detailed, week-by-week breakdown is available in [`LEARNING-JOURNEY.md`](LEARNING-JOURNEY.md), including:
+- 🧠 Recommended time per book  
+- 📖 Daily study & coding time assumptions  
+- ⏱️ Estimated total duration (~79 weeks)
 
 ---
 
-## 📌 Goals
+## 🎯 Goals
 
-- Build a deep, principled understanding of AI
-- Apply concepts through hands-on projects
-- Develop a portfolio of work across ML, DL, and GenAI
-- Prepare for interviews and research/product work
+- Deep understanding of foundational & modern AI
+- Code every major concept in parallel with reading
+- Develop a well-organized AI portfolio
+- Prepare for research, system design, and productization of AI
 
 ---
 
 ## 🛠️ Tech Stack
 
 - **Languages:** Python
-- **Tools & Frameworks:** Jupyter, Git, VSCode  
-- **Libraries:**  
-  - scikit-learn, pandas, NumPy, matplotlib, seaborn  
-  - TensorFlow, Keras, PyTorch  
-  - Hugging Face Transformers, LangChain, OpenAI API  
-  - Docker, FastAPI, MLflow (for MLOps)
+- **Tools:** Jupyter, Git, Docker, VSCode  
+- **Libraries & Frameworks:**  
+  - `scikit-learn`, `pandas`, `NumPy`, `matplotlib`, `seaborn`  
+  - `TensorFlow`, `Keras`, `PyTorch`  
+  - `Hugging Face`, `LangChain`, `OpenAI API`  
+  - `FastAPI`, `MLflow`, `GitHub Actions`
 
 ---
 
-> ⚠️ This is a living repository. It will evolve with my learning, reflections, and projects.
+> ⚠️ This is a **living repository**. It will grow with my learning, project expansions, and course corrections.
 
 ---
 
-## ⭐️ Stay Connected
+## 🙌 Let's Connect
 
-If you're on a similar journey or want to collaborate, feel free to reach out or fork this repo and build your own path!
+If you're on a similar journey or want to collaborate, fork this repo or reach out!  
+Happy learning! 🚀
