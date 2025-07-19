@@ -18,6 +18,9 @@ A complete reference of Obsidian-specific markdown syntax, formatting, plugins, 
 ## 2. Basic Formatting
 
 ```markdown
+- bullet point
+* bullet point
++ bullet point
 **bold**  
 *italic*  
 ~~strikethrough~~  
@@ -104,17 +107,45 @@ Used for metadata and plugins like Dataview or Templater.
 > [!note] Note Title
 > This is a standard note.
 
-> [!tip] Tip Title
-> Useful advice here.
-
-> [!warning] Warning Title
-> Be cautious.
+> [!abstract] Abstract Title
+> Summaries, overviews.
 
 > [!info] Info Title
 > General information.
 
+> [!tip] Tip Title
+> Useful advice here.
+
+> [!success] Success Title
+> Confirmations, things done correctly.
+
 > [!question] Question Title
 > Pose a reflective or quiz-like question.
+
+> [!warning] Warning Title
+> Be cautious.
+
+> [!failure] Failure Title
+> Errors, missed requirements.
+
+> [!danger] Danger Title
+> Major hazards, critical warnings.
+
+> [!bug] Bug Title
+> Issues, actionable bugs.
+
+> [!example] Example Title
+> Code, demos, sample usages.
+
+> [!quote] Quote Title
+> Notable quotations.
+
+> [!Link] Link Title
+> Related references, resources.
+
+> [!check] Check Title
+> To-dos, checklists.
+
 ```
 
 ---
