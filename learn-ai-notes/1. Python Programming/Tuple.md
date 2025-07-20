@@ -1,5 +1,5 @@
 
-#python #data-structures #sequences
+#python-programming/tuple #python-programming/data-structures #python-programming/sequences
 
 > [!abstract] Overview
 > - A **tuple** is an ordered, immutable sequence of elements in Python.
