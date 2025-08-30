@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exams With Solutions on MIT OpenCourseWare</title>
+    <link>/resources/exams-with-solutions/</link>
+    <description>Recent content in Exams With Solutions on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/exams-with-solutions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MIT18_06SCF11_ex1s.pdf</title>
+      <link>/resources/mit18_06scf11_ex1s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ex1s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to the problem set related to exam 1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_ex2s.pdf</title>
+      <link>/resources/mit18_06scf11_ex2s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ex2s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to the problem set related to exam 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_ex3s.pdf</title>
+      <link>/resources/mit18_06scf11_ex3s/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ex3s/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to the problem set related to exam 3.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_final_exs.pdf</title>
+      <link>/resources/mit18_06scf11_final_exs/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_final_exs/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to the problem set related to final exam.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

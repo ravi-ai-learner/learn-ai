@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Videos on MIT OpenCourseWare</title>
+    <link>/resources/lecture-videos/</link>
+    <description>Recent content in Lecture Videos on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An Overview of Linear Algebra</title>
+      <link>/resources/an-overview-of-linear-algebra-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/an-overview-of-linear-algebra-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Column Space and Nullspace</title>
+      <link>/resources/column-space-and-nullspace-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/column-space-and-nullspace-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Elimination with Matrices</title>
+      <link>/resources/elimination-with-matrices/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/elimination-with-matrices/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Exam 1 Review</title>
+      <link>/resources/exam-1-review/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exam-1-review/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Exam 2 Review</title>
+      <link>/resources/exam-2-review/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exam-2-review/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Factorization into A = LU</title>
+      <link>/resources/factorization-into-a-lu/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/factorization-into-a-lu/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Graphs, Networks, Incidence Matrices</title>
+      <link>/resources/graphs-networks-incidence-matrices/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/graphs-networks-incidence-matrices/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Independence, Basis and Dimension</title>
+      <link>/resources/independence-basis-and-dimension-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/independence-basis-and-dimension-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lecture 15: Projections onto Subspaces</title>
+      <link>/resources/lecture-15-projections-onto-subspaces-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-15-projections-onto-subspaces-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lecture 16: Projection Matrices and Least Squares</title>
+      <link>/resources/lecture-16-projection-matrices-and-least-squares-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-16-projection-matrices-and-least-squares-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lecture 17: Orthogonal Matrices and Gram-Schmidt</title>
+      <link>/resources/lecture-17-orthogonal-matrices-and-gram-schmidt-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-17-orthogonal-matrices-and-gram-schmidt-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lecture 18: Properties of Determinants</title>
+      <link>/resources/lecture-18-properties-of-determinants-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-18-properties-of-determinants-1/data.json</guid>
+      <description>&lt;p&gt;The determinant of a matrix is a single number which encodes a lot of information about the matrix. Three simple properties completely describe the determinant. In this lecture we also list seven more properties like detAB = (detA)(detB) that can be derived from the first three.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 19: Determinant Formulas and Cofactors</title>
+      <link>/resources/lecture-19-determinant-formulas-and-cofactors-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-19-determinant-formulas-and-cofactors-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lecture 20: Cramer&#39;s Rule, Inverse Matrix and Volume</title>
+      <link>/resources/lecture-20-cramers-rule-inverse-matrix-and-volume-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-20-cramers-rule-inverse-matrix-and-volume-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lecture 21: Eigenvalues and Eigenvectors</title>
+      <link>/resources/lecture-21-eigenvalues-and-eigenvectors-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-21-eigenvalues-and-eigenvectors-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lecture 22: Diagonalization and Powers of A</title>
+      <link>/resources/lecture-22-diagonalization-and-powers-of-a/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-22-diagonalization-and-powers-of-a/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lecture 23: Differential Equations and exp(At)</title>
+      <link>/resources/lecture-23-differential-equations-and-exp-at-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-23-differential-equations-and-exp-at-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lecture 24: Markov Matrices; Fourier Series</title>
+      <link>/resources/lecture-24-markov-matrices-fourier-series-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-24-markov-matrices-fourier-series-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lecture 25: Symmetric Matrices and Positive Definiteness</title>
+      <link>/resources/lecture-25-symmetric-matrices-and-positive-definiteness-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-25-symmetric-matrices-and-positive-definiteness-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lecture 26: Complex Matrices; Fast Fourier Transform (FFT)</title>
+      <link>/resources/lecture-26-complex-matrices-fast-fourier-transform-fft-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-26-complex-matrices-fast-fourier-transform-fft-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lecture 27: Positive Definite Matrices and Minima</title>
+      <link>/resources/lecture-27-positive-definite-matrices-and-minima-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-27-positive-definite-matrices-and-minima-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lecture 28: Similar Matrices and Jordan Form</title>
+      <link>/resources/lecture-28-similar-matrices-and-jordan-form-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-28-similar-matrices-and-jordan-form-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lecture 29: Singular Value Decomposition</title>
+      <link>/resources/lecture-29-singular-value-decomposition-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-29-singular-value-decomposition-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lecture 30: Linear Transformations and their Matrices</title>
+      <link>/resources/lecture-30-linear-transformations-and-their-matrices-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-30-linear-transformations-and-their-matrices-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lecture 31: Change of Basis; Image Compression</title>
+      <link>/resources/lecture-31-change-of-basis-image-compression-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-31-change-of-basis-image-compression-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lecture 33: Left and Right Inverses; Pseudoinverse</title>
+      <link>/resources/lecture-33-left-and-right-inverses-pseudoinverse/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-33-left-and-right-inverses-pseudoinverse/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Matrix Spaces; Rank 1; Small World Graphs</title>
+      <link>/resources/matrix-spaces-rank-1-small-world-graphs-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/matrix-spaces-rank-1-small-world-graphs-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multiplication and Inverse Matrices</title>
+      <link>/resources/multiplication-and-inverse-matrices-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/multiplication-and-inverse-matrices-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Orthogonal Vectors and Subspaces</title>
+      <link>/resources/orthogonal-vectors-and-subspaces/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/orthogonal-vectors-and-subspaces/data.json</guid>
+      <description>&lt;p&gt;Vectors are discussed in terms of orthogonal bases as well as the Four Fundamental Subspaces.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Solving Ax = 0: Pivot Variables, Special Solutions</title>
+      <link>/resources/solving-ax-0-pivot-variables-special-solutions-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/solving-ax-0-pivot-variables-special-solutions-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Solving Ax = b: Row Reduced Form R</title>
+      <link>/resources/solving-ax-b-row-reduced-form-r-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/solving-ax-b-row-reduced-form-r-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Four Fundamental Subspaces</title>
+      <link>/resources/the-four-fundamental-subspaces-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/the-four-fundamental-subspaces-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Geometry of Linear Equations</title>
+      <link>/resources/the-geometry-of-linear-equations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/the-geometry-of-linear-equations/data.json</guid>
+      <description>&lt;p&gt;This video talks about the geometry of linear equations. The lecture presents three ways of thinking about these systems such as the &amp;ldquo;row method&amp;rdquo; as well as the &amp;ldquo;column method and the &amp;ldquo;matrix method.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transposes, Permutations, Vector Spaces</title>
+      <link>/resources/transposes-permutations-vector-spaces-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/transposes-permutations-vector-spaces-1/data.json</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

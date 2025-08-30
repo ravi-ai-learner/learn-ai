@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exam 3 Review</title>
+      <link>/resources/exam-3-review/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exam-3-review/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Final Course Review</title>
+      <link>/resources/final-course-review/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/final-course-review/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_FinalRevsum.pdf</title>
+      <link>/resources/mit18_06scf11_finalrevsum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_finalrevsum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to final course review.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses1.10sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses1-10sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses1-10sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to the four fundamental subspaces.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses1.11sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses1-11sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses1-11sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to matrix spaces; rank 1; small world graphs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses1.12sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses1-12sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses1-12sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to graphs, networks, and incidence matrices.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses1.13sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses1-13sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses1-13sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to an overview of key ideas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses1.14sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses1-14sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses1-14sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to exam 1 review.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses1.1sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses1-1sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses1-1sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to the geometry of linear equations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses1.2sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses1-2sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses1-2sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to elimination with matrices.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses1.3sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses1-3sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses1-3sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to multiplication and inverse matrices.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses1.4sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses1-4sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses1-4sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to factorization into A = LU.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses1.5sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses1-5sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses1-5sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to transposes, permutations, spaces Rn.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses1.6sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses1-6sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses1-6sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to column space and nullspace.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses1.7sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses1-7sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses1-7sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to solving Ax = 0: pivot variables, special solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses1.8sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses1-8sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses1-8sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to solving Ax = b and row reduced form R.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses1.9sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses1-9sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses1-9sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to independence, basis, and dimension.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses2.10sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses2-10sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses2-10sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to differential equations and exp(At).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses2.11sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses2-11sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses2-11sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to markov matrices; fourier series.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses2.12sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses2-12sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses2-12sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to exam 2 review.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses2.1sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses2-1sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses2-1sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to orthogonal vectors and subspaces.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses2.2sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses2-2sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses2-2sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to projections onto subspaces.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses2.3sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses2-3sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses2-3sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to projection matrices and least squares.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses2.4sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses2-4sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses2-4sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to orthogonal matrices and gram-schmidt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses2.5sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses2-5sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses2-5sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to properties of determinants.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses2.6sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses2-6sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses2-6sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to determinant formulas and cofactors.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses2.7sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses2-7sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses2-7sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to cramer&amp;rsquo;s rule, inverse matrix and volume.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses2.8sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses2-8sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses2-8sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to eigenvalues and eigenvectors.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses2.9sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses2-9sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses2-9sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to diagonalization and powers of A.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses3.1sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses3-1sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses3-1sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to symmetric matrices and positive definiteness.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses3.2sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses3-2sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses3-2sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to complex matrices; fast fourier transform (FFT).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses3.3sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses3-3sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses3-3sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to positive definite matrices and minima.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses3.4sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses3-4sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses3-4sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to similar matrices and jordan form.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses3.5sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses3-5sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses3-5sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to singular value decomposition.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses3.6sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses3-6sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses3-6sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to linear transformations and their matrices.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses3.7sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses3-7sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses3-7sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to change of basis; image compression.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses3.8sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses3-8sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses3-8sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to left and right inverses; pseudoinverse.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses3.9sum.pdf</title>
+      <link>/resources/mit18_06scf11_ses3-9sum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses3-9sum/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to exam 3 review.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ZoomNotes for Linear Algebra</title>
+      <link>/resources/mit18_06scf11_zoomnotes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_zoomnotes/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>三维空间的子空间_MIT_18.06SC_线性代数,_秋_2011.pdf</title>
+      <link>/resources/4e097ef47a7a95f476845b507a7a95f4_mit_18-06sc_7ebf60274ee36570-_79cb_2011-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/4e097ef47a7a95f476845b507a7a95f4_mit_18-06sc_7ebf60274ee36570-_79cb_2011-3/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>微分方程指数矩阵_(At)_MIT_18.06SC_线性代数,_秋_2011.pdf</title>
+      <link>/resources/5fae520665b97a0b6307657077e99635_-at-_mit_18-06sc_7ebf60274ee36570-_79cb_2011-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5fae520665b97a0b6307657077e99635_-at-_mit_18-06sc_7ebf60274ee36570-_79cb_2011-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第二次考试例题求解_MIT_18.06SC_线性代数,_秋_2011.pdf</title>
+      <link>/resources/7b2c4e8c6b2180038bd54f8b98986c4289e3_mit_18-06sc_7ebf60274ee36570-_79cb_2011-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/7b2c4e8c6b2180038bd54f8b98986c4289e3_mit_18-06sc_7ebf60274ee36570-_79cb_2011-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>线性代数的几何表示_MIT_18.06SC_线性代数,_秋_2011.pdf</title>
+      <link>/resources/7ebf60274ee36570768451e04f558868793a_mit_18-06sc_7ebf60274ee36570-_79cb_2011-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/7ebf60274ee36570768451e04f558868793a_mit_18-06sc_7ebf60274ee36570-_79cb_2011-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>行列式_MIT_18.06SC_线性代数,_秋_2011.pdf</title>
+      <link>/resources/884c52175f0f_mit_18-06sc_7ebf60274ee36570-_79cb_2011-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/884c52175f0f_mit_18-06sc_7ebf60274ee36570-_79cb_2011-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>行列式和体积_MIT_18.06SC_线性代数,_秋_2011.pdf</title>
+      <link>/resources/884c52175f0f548c4f5379ef_mit_18-06sc_7ebf60274ee36570-_79cb_2011-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/884c52175f0f548c4f5379ef_mit_18-06sc_7ebf60274ee36570-_79cb_2011-1/data.json</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

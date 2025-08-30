@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem Sets With Solutions on MIT OpenCourseWare</title>
+    <link>/resources/problem-sets-with-solutions/</link>
+    <description>Recent content in Problem Sets With Solutions on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-sets-with-solutions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MIT18_06SCF11_Ses1.10sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses1-10sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses1-10sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to the problem sets related to the four fundamental subspaces.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses1.11sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses1-11sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses1-11sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to the problem sets related to matrix spaces; rank 1; small world graphs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses1.12sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses1-12sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses1-12sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to the problem sets related to graphs, networks, and incidence matrices.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses1.1sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses1-1sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses1-1sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to the problem sets related to the geometry of linear equations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses1.2sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses1-2sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses1-2sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to the problem sets related to elimination with matrices.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses1.3sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses1-3sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses1-3sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to the problem sets related to multiplication and inverse matrices.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses1.4sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses1-4sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses1-4sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to the problem sets related to factorization into A = LU.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses1.5sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses1-5sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses1-5sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to the problem sets related to transposes, permutations, spaces.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses1.6sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses1-6sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses1-6sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to the problem sets related to column space and nullspace.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses1.7sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses1-7sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses1-7sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to the problem sets related to solving Ax = 0: pivot variables, special solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses1.8sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses1-8sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses1-8sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to the problem sets related to solving Ax = b and row reduced form R.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses1.9sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses1-9sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses1-9sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to the problem sets related to independence, basis, and dimension.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses2.10sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses2-10sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses2-10sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to problem set related to differential equations and exp(At).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses2.11sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses2-11sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses2-11sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to problem set related to markov matrices; fourier series.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses2.1sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses2-1sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses2-1sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to problem set related to orthogonal vectors and subspaces.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses2.2sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses2-2sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses2-2sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to problem set related to projections onto subspaces.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses2.3sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses2-3sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses2-3sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to the problem set related to projection matrices and least squares.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses2.4sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses2-4sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses2-4sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to problem set related to orthogonal matrices and gram-schmidt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses2.5sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses2-5sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses2-5sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to problem set related to properties of determinants.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses2.6sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses2-6sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses2-6sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to problem set related to determinant dormulas and cofactors.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses2.7sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses2-7sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses2-7sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to problem set related to cramer&amp;rsquo;s rule, inverse matrix and volume.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses2.8sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses2-8sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses2-8sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to problem set related to eigenvalues and eigenvectors.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses2.9sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses2-9sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses2-9sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to problem set related to diagonalization and powers of A.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses3.1sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses3-1sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses3-1sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to problem set related to symmetric matrices and positive definiteness.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses3.2sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses3-2sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses3-2sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to problem set related to complex matrices; fast fourier transform (FFT).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses3.3sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses3-3sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses3-3sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to problem set related to positive definite matrices and minima.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses3.4sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses3-4sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses3-4sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem set related to similar matrices and jordan form.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses3.5sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses3-5sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses3-5sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to problem set related to singular value decomposition.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses3.6sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses3-6sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses3-6sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to problem set related to linear transformations and their matrices.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses3.7sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses3-7sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses3-7sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to problem set related to change of basis; image compression.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT18_06SCF11_Ses3.8sol.pdf</title>
+      <link>/resources/mit18_06scf11_ses3-8sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_06scf11_ses3-8sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem set related to left and right inverses; pseudoinverse.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

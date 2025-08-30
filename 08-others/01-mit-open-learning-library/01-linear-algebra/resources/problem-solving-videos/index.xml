@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem-Solving Videos on MIT OpenCourseWare</title>
+    <link>/resources/problem-solving-videos/</link>
+    <description>Recent content in Problem-Solving Videos on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-solving-videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An Overview of Key Ideas</title>
+      <link>/resources/an-overview-of-key-ideas/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/an-overview-of-key-ideas/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Basis and Dimension</title>
+      <link>/resources/basis-and-dimension/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/basis-and-dimension/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Computing the Four Fundamental Subspaces</title>
+      <link>/resources/computing-the-four-fundamental-subspaces/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/computing-the-four-fundamental-subspaces/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Elimination with Matrices</title>
+      <link>/resources/recitation-elimination-with-matrices-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/recitation-elimination-with-matrices-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Exam 1 Problem Solving</title>
+      <link>/resources/exam-1-problem-solving/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exam-1-problem-solving/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Exam 2 Problem Solving</title>
+      <link>/resources/exam-2-problem-solving/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exam-2-problem-solving/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Exam 3 Problem Solving</title>
+      <link>/resources/exam-3-problem-solving/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exam-3-problem-solving/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Final Exam Problem Solving</title>
+      <link>/resources/final-exam-problem-solving/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/final-exam-problem-solving/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Geometry of Linear Algebra</title>
+      <link>/resources/geometry-of-linear-algebra/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/geometry-of-linear-algebra/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Graphs and Networks</title>
+      <link>/resources/graphs-and-networks-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/graphs-and-networks-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Inverse Matrices</title>
+      <link>/resources/inverse-matrices/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/inverse-matrices/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LU Decomposition</title>
+      <link>/resources/lu-decomposition/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lu-decomposition/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Matrix Spaces</title>
+      <link>/resources/matrix-spaces-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/matrix-spaces-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Problem Solving: Change of Basis</title>
+      <link>/resources/problem-solving-change-of-basis-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/problem-solving-change-of-basis-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Problem Solving: Complex Matrices</title>
+      <link>/resources/problem-solving-complex-matrices/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/problem-solving-complex-matrices/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Problem Solving: Computing the Singular Value Decomposition</title>
+      <link>/resources/problem-solving-determinants-and-volumecomputing-the-singular-value-decomposition/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/problem-solving-determinants-and-volumecomputing-the-singular-value-decomposition/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Problem Solving: Determinants</title>
+      <link>/resources/problem-solving-determinants/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/problem-solving-determinants/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Problem Solving: Determinants and Volume</title>
+      <link>/resources/problem-solving-determinants-and-volume/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/problem-solving-determinants-and-volume/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Problem Solving: Differential Equations and exp(At)</title>
+      <link>/resources/problem-solving-determinants-and-volumedifferential-equations-and-exp-at/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/problem-solving-determinants-and-volumedifferential-equations-and-exp-at/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Problem Solving: Eigenvalues and Eigenvectors</title>
+      <link>/resources/problem-solving-eigenvalues-and-eigenvectors/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/problem-solving-eigenvalues-and-eigenvectors/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Problem Solving: Gram-Schmidt Orthogonalization</title>
+      <link>/resources/problem-solving-gram-schmidt-orthogonalization/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/problem-solving-gram-schmidt-orthogonalization/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Problem Solving: Least Squares Approximation</title>
+      <link>/resources/problem-solving-least-squares-approximation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/problem-solving-least-squares-approximation/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Problem Solving: Linear Transformations</title>
+      <link>/resources/problem-solving-linear-transformations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/problem-solving-linear-transformations/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Problem Solving: Markov Matrices</title>
+      <link>/resources/problem-solving-markov-matrices/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/problem-solving-markov-matrices/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Problem Solving: Orthogonal Vectors and Subspaces</title>
+      <link>/resources/problem-solving-orthogonal-vectors-and-subspaces/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/problem-solving-orthogonal-vectors-and-subspaces/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Problem Solving: Positive Definite Matrices and Minima</title>
+      <link>/resources/problem-solving-positive-definite-matrices-and-minima/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/problem-solving-positive-definite-matrices-and-minima/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Problem Solving: Powers of a Matrix</title>
+      <link>/resources/problem-solving-powers-of-a-matrix/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/problem-solving-powers-of-a-matrix/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Problem Solving: Projection onto Subspaces</title>
+      <link>/resources/problem-solving-projection-onto-subspaces/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/problem-solving-projection-onto-subspaces/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Problem Solving: Properties of Determinants</title>
+      <link>/resources/problem-solving-properties-of-determinants/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/problem-solving-properties-of-determinants/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Problem Solving: Pseudoinverses</title>
+      <link>/resources/problem-solving-pseudoinverses/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/problem-solving-pseudoinverses/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Problem Solving: Similar Matrices</title>
+      <link>/resources/problem-solving-similar-matrices/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/problem-solving-similar-matrices/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Problem Solving: Symmetric Matrices and Positive Definiteness</title>
+      <link>/resources/problem-solving-symmetric-matrices-and-positive-definiteness/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/problem-solving-symmetric-matrices-and-positive-definiteness/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Solving Ax=0</title>
+      <link>/resources/solving-ax-0/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/solving-ax-0/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Solving Ax=b</title>
+      <link>/resources/solving-ax-b-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/solving-ax-b-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Subspaces of Three Dimensional Space</title>
+      <link>/resources/subspaces-of-three-dimensional-space/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/subspaces-of-three-dimensional-space/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vector Subspaces</title>
+      <link>/resources/vector-subspaces/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/vector-subspaces/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>三维空间的子空间</title>
+      <link>/resources/4e097ef47a7a95f476845b507a7a95f4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/4e097ef47a7a95f476845b507a7a95f4/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>微分方程指数矩阵(At)</title>
+      <link>/resources/5fae520665b97a0b6307657077e99635-at-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/5fae520665b97a0b6307657077e99635-at-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>第二次考试例题</title>
+      <link>/resources/7b2c4e8c6b2180038bd54f8b9898/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/7b2c4e8c6b2180038bd54f8b9898/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>线性代数的几何表示</title>
+      <link>/resources/7ebf60274ee36570768451e04f558868793a/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/7ebf60274ee36570768451e04f558868793a/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>行列式</title>
+      <link>/resources/884c52175f0f/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/884c52175f0f/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>行列式和体积</title>
+      <link>/resources/884c52175f0f548c4f5379ef/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/884c52175f0f548c4f5379ef/data.json</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
