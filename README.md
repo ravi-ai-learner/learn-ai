@@ -17,10 +17,16 @@ The journey is organized into **5 core phases**, reflecting a progressive and pr
 > **Status:** ✅ Already proficient — used mainly for revision  
 > **Books:**  
 > - *Learning Python* by Mark Lutz  
-> - *Learning Spark* by Jules Damji et al.  
+> - *Learning Spark* by Jules S. Damji  
 > **Practice Platforms:**  
 > - HackerRank / LeetCode (for problem-solving)  
 > - Optional: NeedCode (for DSA & System Design)
+
+**Focus Areas & Goals:**
+- Review Python core syntax, OOP, and data structures  
+- Automate workflows and handle data manipulation using pandas  
+- Explore Spark for large-scale data processing  
+- ✅ Completion: Comfortable scripting, data manipulation, and mini-projects
 
 ---
 
@@ -28,9 +34,13 @@ The journey is organized into **5 core phases**, reflecting a progressive and pr
 > **Focus:** Linear algebra, calculus, probability, and practical statistics for ML  
 > **Resources:**  
 > - 🎓 *Mathematics for Machine Learning and Data Science Specialization* – DeepLearning.AI (Coursera)  
-> - 📘 *Practical Statistics for Data Scientists* – Peter Bruce et al. *(reference book)*  
+> - 📘 *Practical Statistics for Data Scientists* – Peter Bruce *(reference book)*  
 
-This phase strengthens mathematical intuition and prepares for ML and DL model formulation.
+**Focus Areas & Goals:**
+- Linear Algebra – vectors, matrices, eigenvalues  
+- Calculus – gradients and optimization  
+- Probability and Statistics – inference, distributions, hypothesis testing  
+- ✅ Completion: Mastered mathematical fundamentals and created at least one math/visualization notebook
 
 ---
 
@@ -40,19 +50,27 @@ This phase strengthens mathematical intuition and prepares for ML and DL model f
 > - 🎓 *Machine Learning Specialization* – Stanford University & DeepLearning.AI (Coursera)  
 > - 📘 *Hands-On Machine Learning with Scikit-Learn and PyTorch* – Aurélien Géron *(upcoming edition)*  
 
-This phase builds a solid conceptual and practical foundation in modern ML using **Scikit-Learn** and **PyTorch**.
+**Focus Areas & Goals:**
+- Supervised Learning – regression, classification  
+- Unsupervised Learning – clustering, PCA  
+- Model evaluation, tuning, and feature engineering  
+- End-to-end ML pipeline and deployment readiness  
+- ✅ Completion: Implemented ML projects and exercises using Scikit-Learn & PyTorch
 
 ---
 
 ### **Phase 4: Deep Learning & LLMs**
 > **Focus:** Neural networks, transformers, large language models, and generative systems  
 > **Resources:**  
-> - 🎓 *Deep Learning Specialization* – DeepLearning.AI (Coursera)   
-> - 🎥 *Neural Networks: Zero to Hero* – Andrej Karpathy (YouTube)  
-> - 🎥 *Introduction to LLMs* – Andrej Karpathy (YouTube)  
+> - 🎥 *PyTorch Tutorials* – Aladdin Persson (YouTube)  
+> - 🎓 *Deep Learning Specialization* – DeepLearning.AI (Coursera)  
 > - 📘 *Hands-On Large Language Models* – Jay Alammar  
 
-This phase transitions into **deep architectures** and **Generative AI**, focusing on understanding and building LLM-powered applications using PyTorch, Hugging Face, and LangChain.
+**Focus Areas & Goals:**
+- Neural network fundamentals (ANN, CNN, RNN, backpropagation)  
+- Transformers and attention mechanisms  
+- LLMs, embeddings, and generative AI applications  
+- ✅ Completion: Built PyTorch models and 1–2 generative AI mini-projects (e.g., text generator, chatbot)
 
 ---
 
@@ -62,7 +80,11 @@ This phase transitions into **deep architectures** and **Generative AI**, focusi
 > - 📘 *AI Engineering* – Chip Huyen  
 > - 📘 *Practical MLOps* – Noah Gift & Alfredo Deza  
 
-This phase focuses on operational excellence — deploying, monitoring, and scaling ML and GenAI systems in production.
+**Focus Areas & Goals:**
+- ML system design, experiment tracking, and versioning (MLflow)  
+- Model deployment with FastAPI & Docker  
+- CI/CD, monitoring, and automation pipelines  
+- ✅ Completion: Deployed at least one production-ready ML/GenAI pipeline
 
 ---
 
@@ -72,46 +94,59 @@ This phase focuses on operational excellence — deploying, monitoring, and scal
 learn-ai/
 │
 ├── 01-python-programming/
-│   ├── learning-python/
-│   └── learning-spark/
+│   ├── 01-learning-python/
+│   └── 02-learning-spark/
 │
 ├── 02-math-stats/
-│   ├── coursera-math-for-ml-ds/
-│   └── practical-stats/
+│   ├── 01-coursera-math-for-ml-ds/
+│   └── 02-practical-stats/
 │
 ├── 03-machine-learning/
-│   ├── coursera-ml-specialization/
-│   └── hands-on-ml-pytorch/
+│   ├── 01-coursera-ml-specialization/
+│   └── 02-hands-on-ml-pytorch/
 │
 ├── 04-deep-learning-llms/
-│   ├── coursera-deep-learning-specialization/
-│   ├── pytorch-practice/
-│   ├── karpathy-zero-to-hero/
-│   └── hands-on-llms/
+│   ├── 01-pytorch-tutorials/
+│   ├── 02-coursera-deep-learning-specialization/
+│   └── 03-hands-on-llms/
 │
 ├── 05-ai-engineering-mlops/
-│   ├── ai-engineering-chip-huyen/
-│   └── practical-mlops/
+│   ├── 01-ai-engineering/
+│   └── 02-practical-mlops/
 │
 ├── 06-projects/
 │   ├── kaggle/
+│   │   ├── sample-project/
+│   │   │   ├── notebooks/
+│   │   │   ├── data/
+│   │   │   └── README.md
+│   │   └── README.md
 │   ├── genai-experiments/
+│   │   ├── sample-project/
+│   │   │   ├── notebooks/
+│   │   │   ├── models/
+│   │   │   └── README.md
+│   │   └── README.md
 │   └── mlops-deployments/
+│       ├── sample-project/
+│       │   ├── app/
+│       │   ├── models/
+│       │   └── README.md
+│       └── README.md
 │
-├── README.md
-└── LEARNING-JOURNEY.md
+└── README.md
 </code></pre>
 
 ---
 
----
+## 📖 Learning Principles & Continuous Improvement
 
-## 📅 Learning Journey
-
-A detailed breakdown of all learning phases, milestones, and progress tracking is available in [`LEARNING-JOURNEY.md`](LEARNING-JOURNEY.md).
-
-Each phase has its own subgoals and clear completion criteria — no daily or weekly logs are maintained.  
-Focus remains on consistent learning and building projects rather than tracking time. 
+- Focus on **deep understanding and practical application**  
+- Progress tracked by **milestones, not dates**; no daily/weekly logs  
+- Emphasis on **projects, notebooks, and experiments** over documentation  
+- **Review phases quarterly** for reinforcement and retention  
+- **Update roadmap** with new tools, frameworks, or techniques  
+- Share insights, notebooks, and code regularly for **community learning**  
 
 ---
 
