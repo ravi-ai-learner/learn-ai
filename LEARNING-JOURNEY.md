@@ -1,17 +1,16 @@
 # 🧭 LEARNING JOURNEY – Step-by-Step Progress Tracker
 
-This document tracks my progress through the Learn AI Roadmap — 
-from fundamentals to applied AI. It includes subgoals, milestones, and completion criteria for each phase.
+This document tracks my structured journey through the **Learn AI Roadmap** — from Python and mathematics to Machine Learning, Deep Learning, and AI Engineering.  
+It outlines **subgoals, milestones, and clear completion criteria** for each phase.
 
 ---
 
 ## 🗓️ Learning Principles
 
-- ⏱️ **1 hour reading** + **1 hour coding** per day  
-- 🗓️ **5 study days per week**  
-- 🧩 Flexible weekends for reviews, projects, or rest  
-- 🧠 Focus on *understanding deeply*, not rushing  
-- 🪴 This plan evolves as I learn — progress > perfection
+- ⏱️ Focus on deep understanding and application  
+- 🧠 1–2 hours of consistent learning daily  
+- 🧩 Progress tracked by milestones, not by dates  
+- 🎯 Emphasis on real projects and coding practice over documentation  
 
 ---
 
@@ -27,14 +26,10 @@ from fundamentals to applied AI. It includes subgoals, milestones, and completio
 - HackerRank / LeetCode (problem-solving)
 - NeedCode (optional DSA & System Design)
 
-### 📅 Milestones
-
-| Week | Focus Area | Deliverables / Notes |
-|------|-------------|----------------------|
-| 1 | Review Python core syntax, OOP, file handling | Practice 20 coding challenges |
-| 2 | Learn/Revise data structures (lists, dicts, sets, tuples) | Implement 3 small Python scripts |
-| 3 | Introduction to Spark & distributed processing | Run sample Spark jobs on Colab or local setup |
-| 4 | Review concepts, mini-project | Build a small ETL or data-cleaning project |
+### 🎯 Focus Areas
+- Review Python core syntax, OOP, and data structures  
+- Automate workflows and handle data manipulation using pandas  
+- Explore Spark for large-scale data processing  
 
 ### ✅ Completion Criteria
 - [ ] Comfortable with Python scripting and OOP  
@@ -51,15 +46,10 @@ from fundamentals to applied AI. It includes subgoals, milestones, and completio
 - 🎓 *Mathematics for Machine Learning and Data Science Specialization* (Coursera)  
 - 📘 *Practical Statistics for Data Scientists* (reference book)
 
-### 📅 Milestones
-
-| Week | Focus Area | Deliverables / Notes |
-|------|-------------|----------------------|
-| 1–2 | Linear Algebra – vectors, matrices, eigenvalues | Jupyter notebook with matrix operations |
-| 3–4 | Calculus – differentiation, gradients, optimization basics | Gradient descent simulation |
-| 5–6 | Probability and Statistics | Exploratory data analysis using real dataset |
-| 7 | Statistical inference and hypothesis testing | Write-up: "How statistics powers ML models" |
-| 8 | Review and summary | Notebook: math recap cheatsheet |
+### 🎯 Focus Areas
+- Linear Algebra – vectors, matrices, eigenvalues  
+- Calculus – gradients and optimization  
+- Probability and Statistics – inference, distributions, hypothesis testing  
 
 ### ✅ Completion Criteria
 - [ ] Completed Coursera specialization  
@@ -77,15 +67,11 @@ from fundamentals to applied AI. It includes subgoals, milestones, and completio
 - 📘 *Hands-On Machine Learning with Scikit-Learn and PyTorch* – Aurélien Géron *(upcoming edition)*  
 - 🧠 *The Hundred-Page ML Book* – Andriy Burkov *(optional reference)*
 
-### 📅 Milestones
-
-| Week | Focus Area | Deliverables / Notes |
-|------|-------------|----------------------|
-| 1–2 | Supervised Learning – regression, classification | Implement Linear & Logistic Regression |
-| 3–4 | Decision Trees, Ensembles (RF, GBM) | Compare model performance on sample dataset |
-| 5–6 | Unsupervised Learning – clustering, PCA | Visualize results using t-SNE/UMAP |
-| 7 | Evaluation metrics, model selection | Create evaluation framework notebook |
-| 8 | End-to-end ML Project | Choose Kaggle dataset and complete pipeline |
+### 🎯 Focus Areas
+- Supervised Learning – regression, classification  
+- Unsupervised Learning – clustering, PCA  
+- Model evaluation, tuning, and feature engineering  
+- End-to-end ML pipeline and deployment readiness  
 
 ### ✅ Completion Criteria
 - [ ] Completed Coursera specialization  
@@ -105,15 +91,11 @@ from fundamentals to applied AI. It includes subgoals, milestones, and completio
 - 🎥 *Introduction to LLMs* – Andrej Karpathy  
 - 📘 *Hands-On Large Language Models* – Jay Alammar  
 
-### 📅 Milestones
-
-| Week | Focus Area | Deliverables / Notes |
-|------|-------------|----------------------|
-| 1–2 | Neural Network Fundamentals (ANN, backpropagation) | Implement from-scratch NN in PyTorch |
-| 3–4 | CNNs, RNNs, and transfer learning | Build CNN for image classification |
-| 5 | Transformers – self-attention, BERT basics | Mini transformer notebook |
-| 6–7 | Large Language Models (LLMs), embeddings | Fine-tune a small HF model |
-| 8 | Generative AI applications (text, image, or multimodal) | Build simple RAG or chatbot app |
+### 🎯 Focus Areas
+- Neural network fundamentals (ANN, backpropagation)  
+- CNNs, RNNs, and transfer learning  
+- Transformers and attention mechanisms  
+- LLMs, embeddings, and generative AI applications  
 
 ### ✅ Completion Criteria
 - [ ] Completed Deep Learning specialization  
@@ -130,15 +112,11 @@ from fundamentals to applied AI. It includes subgoals, milestones, and completio
 - 📘 *AI Engineering* – Chip Huyen  
 - 📘 *Practical MLOps* – Noah Gift & Alfredo Deza  
 
-### 📅 Milestones
-
-| Week | Focus Area | Deliverables / Notes |
-|------|-------------|----------------------|
-| 1–2 | ML system design concepts | Notes + diagrams on ML lifecycle |
-| 3–4 | Experiment tracking, model versioning (MLflow) | Implement local MLflow pipeline |
-| 5 | Deployment with FastAPI / Docker | Deploy model locally or on cloud |
-| 6–7 | CI/CD for ML, monitoring | Automate workflow with GitHub Actions |
-| 8 | Capstone AI Engineering Project | End-to-end project from training to deployment |
+### 🎯 Focus Areas
+- ML system design concepts and best practices  
+- Experiment tracking and versioning (MLflow)  
+- Model deployment with FastAPI & Docker  
+- CI/CD, monitoring, and automation  
 
 ### ✅ Completion Criteria
 - [ ] Completed both MLOps books  
@@ -154,9 +132,9 @@ from fundamentals to applied AI. It includes subgoals, milestones, and completio
 - 🤖 **Generative AI Experiments** – transformer fine-tuning, RAG apps  
 - ⚙️ **MLOps Deployments** – end-to-end pipelines using FastAPI, Docker, MLflow  
 
-Each project will have:
+Each project will include:
 - Problem statement  
-- Approach and modeling  
+- Approach and modeling details  
 - Results / metrics  
 - Key learnings  
 
@@ -165,8 +143,9 @@ Each project will have:
 ## 🔁 Continuous Improvement
 
 - Revisit completed phases quarterly for reinforcement  
-- Update roadmap with new resources or technologies  
-- Share insights and notebooks regularly  
+- Update roadmap with new resources or emerging tools  
+- Share insights, notebooks, and code regularly  
+- Focus on long-term skill depth and practical mastery  
 
 ---
 
