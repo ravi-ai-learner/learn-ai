@@ -19,7 +19,7 @@ The journey is organized into **5 core phases**, reflecting a progressive and pr
 > - [Learning Spark - Jules S. Damji](https://drive.google.com/file/d/1rdWl6xOTUGplJtKpCtNFZMbC_nD-dlJT/view?usp=drive_link) (PDF)  
 > 
 > **Practice Platforms:**  
-> - [HackerRank](https://www.hackerrank.com/)* / [LeetCode](https://leetcode.com/) (for problem-solving)  
+> - [HackerRank](https://www.hackerrank.com/) / [LeetCode](https://leetcode.com/) (for problem-solving)  
 > - [NeetCode](https://neetcode.io/) (for DSA & System Design)
 
 
