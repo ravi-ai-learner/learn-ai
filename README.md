@@ -10,7 +10,6 @@ With over **13 years of total experience** (including **6+ years in traditional 
 
 The journey is organized into **5 core phases**, reflecting a progressive and practical path from fundamentals to real-world AI systems.
 
----
 
 ### **Phase 1: Python Programming**
 > **Focus:** Programming fundamentals, scripting, OOP, data processing   
@@ -22,7 +21,6 @@ The journey is organized into **5 core phases**, reflecting a progressive and pr
 > - *[HackerRank](https://www.hackerrank.com/)* / *[LeetCode](https://leetcode.com/)* (for problem-solving)  
 > - Optional: *[NeetCode](https://neetcode.io/)* (for DSA & System Design)
 
----
 
 ### **Phase 2: Mathematics & Statistics**
 > **Focus:** Linear algebra, calculus, probability, and practical statistics for ML  
@@ -31,7 +29,6 @@ The journey is organized into **5 core phases**, reflecting a progressive and pr
 > - *[Mathematics for Machine Learning and Data Science Specialization - DeepLearning.AI](https://www.coursera.org)* (Coursera)  
 > - *[Practical Statistics for Data Scientists – Peter Bruce](https://drive.google.com/drive/my-drive)* (PDF)  
 
----
 
 ### **Phase 3: Machine Learning**
 > **Focus:** Core ML algorithms, supervised/unsupervised learning, evaluation, and hands-on modeling  
@@ -40,7 +37,6 @@ The journey is organized into **5 core phases**, reflecting a progressive and pr
 > - *[Machine Learning Specialization – Stanford University & DeepLearning.AI](https://www.coursera.org)* (Coursera)  
 > - *[Hands-On Machine Learning with Scikit-Learn and PyTorch – Aurélien Géron](https://drive.google.com/drive/my-drive)* (PDF)  
 
----
 
 ### **Phase 4: Deep Learning & LLMs**
 > **Focus:** Neural networks, transformers, large language models, and generative systems  
@@ -50,7 +46,6 @@ The journey is organized into **5 core phases**, reflecting a progressive and pr
 > - *[Deep Learning Specialization – DeepLearning.AI](https://www.coursera.org)* (Coursera)  
 > - *[Hands-On Large Language Models – Jay Alammar](https://drive.google.com/drive/my-drive)* (PDF)  
 
----
 
 ### **Phase 5: AI Engineering & MLOps**
 > **Focus:** Deployment, automation, scalability, and AI system design  
