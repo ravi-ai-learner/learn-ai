@@ -110,11 +110,8 @@ learn-ai/
 
 A detailed breakdown of all learning phases, milestones, and progress tracking is available in [`LEARNING-JOURNEY.md`](LEARNING-JOURNEY.md).
 
-A separate weekly schedule is maintained in [`weekly-learning-plan.md`](weekly-learning-plan.md), which outlines:
-- Weekly learning targets per phase  
-- 1 hour reading + 1 hour coding per day  
-- 5 study days per week  
-- Buffer weeks for review, projects, and experiments  
+Each phase has its own subgoals and clear completion criteria — no daily or weekly logs are maintained.  
+Focus remains on consistent learning and building projects rather than tracking time. 
 
 ---
 
