@@ -17,6 +17,7 @@ The journey is organized into **5 core phases**, reflecting a progressive and pr
 > **Resources:**  
 > - *[Learning Python - Mark Lutz](https://drive.google.com/drive/my-drive)* (PDF)  
 > - *[Learning Spark - Jules S. Damji](https://drive.google.com/drive/my-drive)* (PDF)  
+> 
 > **Practice Platforms:**  
 > - *[HackerRank](https://www.hackerrank.com/)* / *[LeetCode](https://leetcode.com/)* (for problem-solving)  
 > - Optional: *[NeetCode](https://neetcode.io/)* (for DSA & System Design)
