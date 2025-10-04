@@ -108,8 +108,9 @@ learn-ai/
 
 ## 📅 Learning Journey
 
-A detailed weekly roadmap is maintained in [`weekly-learning-plan.md`](weekly-learning-plan.md).  
-It outlines:  
+A detailed breakdown of all learning phases, milestones, and progress tracking is available in [`LEARNING-JOURNEY.md`](LEARNING-JOURNEY.md).
+
+A separate weekly schedule is maintained in [`weekly-learning-plan.md`](weekly-learning-plan.md), which outlines:
 - Weekly learning targets per phase  
 - 1 hour reading + 1 hour coding per day  
 - 5 study days per week  
