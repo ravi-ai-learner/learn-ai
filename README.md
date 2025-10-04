@@ -16,11 +16,11 @@ The journey is organized into **5 core phases**, reflecting a progressive and pr
 > **Focus:** Programming fundamentals, scripting, OOP, data processing  
 > **Status:** ✅ Already proficient — used mainly for revision  
 > **Books:**  
-> - *Learning Python* by Mark Lutz  
-> - *Learning Spark* by Jules S. Damji  
+> - *[Learning Python - Mark Lutz](https://drive.google.com/drive/my-drive)* (PDF)  
+> - *[Learning Spark - Jules S. Damji](https://drive.google.com/drive/my-drive)* (PDF)  
 > **Practice Platforms:**  
-> - HackerRank / LeetCode (for problem-solving)  
-> - Optional: NeedCode (for DSA & System Design)
+> - *[HackerRank](https://www.hackerrank.com/)* / *[LeetCode](https://leetcode.com/)* (for problem-solving)  
+> - Optional: *[NeetCode](https://neetcode.io/)* (for DSA & System Design)
 
 **Focus Areas & Goals:**
 - Review Python core syntax, OOP, and data structures  
@@ -33,8 +33,8 @@ The journey is organized into **5 core phases**, reflecting a progressive and pr
 ### **Phase 2: Mathematics & Statistics**
 > **Focus:** Linear algebra, calculus, probability, and practical statistics for ML  
 > **Resources:**  
-> - 🎓 *Mathematics for Machine Learning and Data Science Specialization* – DeepLearning.AI ([Coursera](https://www.coursera.org))  
-> - 📘 *Practical Statistics for Data Scientists* – Peter Bruce *(reference book)*  
+> - *[Mathematics for Machine Learning and Data Science Specialization - DeepLearning.AI](https://www.coursera.org)* (Coursera)  
+> - *[Practical Statistics for Data Scientists – Peter Bruce](https://drive.google.com/drive/my-drive)* (PDF)  
 
 **Focus Areas & Goals:**
 - Linear Algebra – vectors, matrices, eigenvalues  
@@ -47,8 +47,8 @@ The journey is organized into **5 core phases**, reflecting a progressive and pr
 ### **Phase 3: Machine Learning**
 > **Focus:** Core ML algorithms, supervised/unsupervised learning, evaluation, and hands-on modeling  
 > **Resources:**  
-> - 🎓 *Machine Learning Specialization* – Stanford University & DeepLearning.AI ([Coursera](https://www.coursera.org))  
-> - 📘 *Hands-On Machine Learning with Scikit-Learn and PyTorch* – Aurélien Géron *(upcoming edition)*  
+> - *[Machine Learning Specialization – Stanford University & DeepLearning.AI](https://www.coursera.org)* (Coursera)  
+> - *[Hands-On Machine Learning with Scikit-Learn and PyTorch – Aurélien Géron](https://drive.google.com/drive/my-drive)* (PDF)  
 
 **Focus Areas & Goals:**
 - Supervised Learning – regression, classification  
@@ -62,9 +62,9 @@ The journey is organized into **5 core phases**, reflecting a progressive and pr
 ### **Phase 4: Deep Learning & LLMs**
 > **Focus:** Neural networks, transformers, large language models, and generative systems  
 > **Resources:**  
-> - 🎥 *PyTorch Tutorials* – Aladdin Persson (YouTube)  
-> - 🎓 *Deep Learning Specialization* – DeepLearning.AI ([Coursera](https://www.coursera.org))  
-> - 📘 *Hands-On Large Language Models* – Jay Alammar  
+> - *[PyTorch Tutorials - Aladdin Persson](https://youtube.com/playlist?list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz&si=tTNySIYUOx1rUpTh)* (YouTube)  
+> - *[Deep Learning Specialization – DeepLearning.AI](https://www.coursera.org)* (Coursera)  
+> - *[Hands-On Large Language Models – Jay Alammar](https://drive.google.com/drive/my-drive)* (PDF)  
 
 **Focus Areas & Goals:**
 - Neural network fundamentals (ANN, CNN, RNN, backpropagation)  
@@ -77,8 +77,8 @@ The journey is organized into **5 core phases**, reflecting a progressive and pr
 ### **Phase 5: AI Engineering & MLOps**
 > **Focus:** Deployment, automation, scalability, and AI system design  
 > **Resources:**  
-> - 📘 *AI Engineering* – Chip Huyen  
-> - 📘 *Practical MLOps* – Noah Gift & Alfredo Deza  
+> - *[AI Engineering – Chip Huyen](https://drive.google.com/drive/my-drive)* (PDF)  
+> - *[Practical MLOps – Noah Gift & Alfredo Deza](https://drive.google.com/drive/my-drive)* (PDF)  
 
 **Focus Areas & Goals:**
 - ML system design, experiment tracking, and versioning (MLflow)  
