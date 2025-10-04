@@ -15,45 +15,45 @@ The journey is organized into **5 core phases**, reflecting a progressive and pr
 > **Focus:** Programming fundamentals, scripting, OOP, data processing   
 > 
 > **Resources:**  
-> - *[Learning Python - Mark Lutz](https://drive.google.com/drive/my-drive)* (PDF)  
-> - *[Learning Spark - Jules S. Damji](https://drive.google.com/drive/my-drive)* (PDF)  
+> - [Learning Python - Mark Lutz](https://drive.google.com/file/d/1782BfglBCoX5besH6kVoP87pidTVwywD/view?usp=drive_link) (PDF)  
+> - [Learning Spark - Jules S. Damji](https://drive.google.com/file/d/1rdWl6xOTUGplJtKpCtNFZMbC_nD-dlJT/view?usp=drive_link) (PDF)  
 > 
 > **Practice Platforms:**  
-> - *[HackerRank](https://www.hackerrank.com/)* / *[LeetCode](https://leetcode.com/)* (for problem-solving)  
-> - Optional: *[NeetCode](https://neetcode.io/)* (for DSA & System Design)
+> - [HackerRank](https://www.hackerrank.com/)* / [LeetCode](https://leetcode.com/) (for problem-solving)  
+> - [NeetCode](https://neetcode.io/) (for DSA & System Design)
 
 
 ### **Phase 2: Mathematics & Statistics**
 > **Focus:** Linear algebra, calculus, probability, and practical statistics for ML  
 > 
 > **Resources:**  
-> - *[Mathematics for Machine Learning and Data Science Specialization - DeepLearning.AI](https://www.coursera.org)* (Coursera)  
-> - *[Practical Statistics for Data Scientists – Peter Bruce](https://drive.google.com/drive/my-drive)* (PDF)  
+> - [Mathematics for Machine Learning and Data Science Specialization - DeepLearning.AI](https://www.coursera.org) (Coursera)  
+> - [Practical Statistics for Data Scientists – Peter Bruce](https://drive.google.com/file/d/1Aj6lS7aatM9XZJDwY0KF441cBXw0ZY2k/view?usp=drive_link) (PDF)  
 
 
 ### **Phase 3: Machine Learning**
 > **Focus:** Core ML algorithms, supervised/unsupervised learning, evaluation, and hands-on modeling  
 > 
 > **Resources:**  
-> - *[Machine Learning Specialization – Stanford University & DeepLearning.AI](https://www.coursera.org)* (Coursera)  
-> - *[Hands-On Machine Learning with Scikit-Learn and PyTorch – Aurélien Géron](https://drive.google.com/drive/my-drive)* (PDF)  
+> - [Machine Learning Specialization – Stanford University & DeepLearning.AI](https://www.coursera.org) (Coursera)  
+> - [Hands-On Machine Learning with Scikit-Learn and PyTorch – Aurélien Géron](https://drive.google.com/drive/my-drive) (PDF)  
 
 
 ### **Phase 4: Deep Learning & LLMs**
 > **Focus:** Neural networks, transformers, large language models, and generative systems  
 > 
 > **Resources:**  
-> - *[PyTorch Tutorials - Aladdin Persson](https://youtube.com/playlist?list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz&si=tTNySIYUOx1rUpTh)* (YouTube)  
-> - *[Deep Learning Specialization – DeepLearning.AI](https://www.coursera.org)* (Coursera)  
-> - *[Hands-On Large Language Models – Jay Alammar](https://drive.google.com/drive/my-drive)* (PDF)  
+> - [PyTorch Tutorials - Aladdin Persson](https://youtube.com/playlist?list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz&si=tTNySIYUOx1rUpTh) (YouTube)  
+> - [Deep Learning Specialization – DeepLearning.AI](https://www.coursera.org) (Coursera)  
+> - [Hands-On Large Language Models – Jay Alammar](https://drive.google.com/file/d/1TNtKG1X9c3s8Cs7IOvg51cMDfHt8Q1Gx/view?usp=drive_link) (PDF)  
 
 
 ### **Phase 5: AI Engineering & MLOps**
 > **Focus:** Deployment, automation, scalability, and AI system design  
 > 
 > **Resources:**  
-> - *[AI Engineering – Chip Huyen](https://drive.google.com/drive/my-drive)* (PDF)  
-> - *[Practical MLOps – Noah Gift & Alfredo Deza](https://drive.google.com/drive/my-drive)* (PDF)  
+> - [AI Engineering – Chip Huyen](https://drive.google.com/file/d/1rFREElefKeJDIxuTy1sjRJjBRW7yqbvx/view?usp=drive_link) (PDF)  
+> - [Practical MLOps – Noah Gift & Alfredo Deza](https://drive.google.com/file/d/1JZ_bzJNxfZEe3mlNxuzoAJyPPS_8MCgQ/view?usp=drive_link) (PDF)  
 
 ---
 
