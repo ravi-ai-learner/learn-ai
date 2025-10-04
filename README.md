@@ -33,7 +33,7 @@ The journey is organized into **5 core phases**, reflecting a progressive and pr
 ### **Phase 2: Mathematics & Statistics**
 > **Focus:** Linear algebra, calculus, probability, and practical statistics for ML  
 > **Resources:**  
-> - 🎓 *Mathematics for Machine Learning and Data Science Specialization* – DeepLearning.AI (Coursera)  
+> - 🎓 *Mathematics for Machine Learning and Data Science Specialization* – DeepLearning.AI ([Coursera](https://www.coursera.org))  
 > - 📘 *Practical Statistics for Data Scientists* – Peter Bruce *(reference book)*  
 
 **Focus Areas & Goals:**
@@ -47,7 +47,7 @@ The journey is organized into **5 core phases**, reflecting a progressive and pr
 ### **Phase 3: Machine Learning**
 > **Focus:** Core ML algorithms, supervised/unsupervised learning, evaluation, and hands-on modeling  
 > **Resources:**  
-> - 🎓 *Machine Learning Specialization* – Stanford University & DeepLearning.AI (Coursera)  
+> - 🎓 *Machine Learning Specialization* – Stanford University & DeepLearning.AI ([Coursera](https://www.coursera.org))  
 > - 📘 *Hands-On Machine Learning with Scikit-Learn and PyTorch* – Aurélien Géron *(upcoming edition)*  
 
 **Focus Areas & Goals:**
@@ -63,7 +63,7 @@ The journey is organized into **5 core phases**, reflecting a progressive and pr
 > **Focus:** Neural networks, transformers, large language models, and generative systems  
 > **Resources:**  
 > - 🎥 *PyTorch Tutorials* – Aladdin Persson (YouTube)  
-> - 🎓 *Deep Learning Specialization* – DeepLearning.AI (Coursera)  
+> - 🎓 *Deep Learning Specialization* – DeepLearning.AI ([Coursera](https://www.coursera.org))  
 > - 📘 *Hands-On Large Language Models* – Jay Alammar  
 
 **Focus Areas & Goals:**
