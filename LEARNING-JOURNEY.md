@@ -1,7 +1,7 @@
 # 🧭 LEARNING JOURNEY – Step-by-Step Progress Tracker
 
-This document tracks my progress through the **Learn AI Roadmap** — from Python and mathematics to Machine Learning, Deep Learning, and AI Engineering.  
-It outlines **subgoals, weekly milestones, and reflection checkpoints** for each phase.
+This document tracks my progress through the Learn AI Roadmap — 
+from fundamentals to applied AI. It includes subgoals, milestones, and completion criteria for each phase.
 
 ---
 
