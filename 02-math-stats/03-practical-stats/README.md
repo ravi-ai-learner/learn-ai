@@ -1,7 +1,7 @@
 ## Practical Statistics for Data Scientists
 
 **Book:** *Practical Statistics for Data Scientists* by Peter Bruce et al.  
-**Stored in:** Google Drive → Learn AI → 2. Mathematics and Statistics → 2. Book - Practical Statistics for Data Scientists
+**Stored in:** Google Drive → Learn AI → 2. Mathematics and Statistics → 3. Book - Practical Statistics for Data Scientists
 
 This folder contains:
 - Practical Statistics for Data Scientists.pdf
