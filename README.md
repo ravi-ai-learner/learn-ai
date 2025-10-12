@@ -30,6 +30,7 @@ The journey is organized into **5 core phases**, reflecting a progressive and pr
 > - [Mathematics for Machine Learning and Data Science Specialization - DeepLearning.AI](https://www.coursera.org) (Coursera) 
 > - [Mathematics for Machine Learning - Marc Peter Deisenroth](https://drive.google.com/file/d/1SuUx37vogBZOQCEjvrDAp7SNUjI-YKhw/view?usp=drive_link) (PDF)  
 > - [Practical Statistics for Data Scientists – Peter Bruce](https://drive.google.com/file/d/1Aj6lS7aatM9XZJDwY0KF441cBXw0ZY2k/view?usp=drive_link) (PDF)  
+> - [MIT Learn](https://learn.mit.edu/dashboard/my-lists) (MIT)
 
 
 ### **Phase 3: Machine Learning**
@@ -38,6 +39,7 @@ The journey is organized into **5 core phases**, reflecting a progressive and pr
 > **Resources:**  
 > - [Machine Learning Specialization – Stanford University & DeepLearning.AI](https://www.coursera.org) (Coursera)  
 > - [Hands-On Machine Learning with Scikit-Learn and PyTorch – Aurélien Géron](https://drive.google.com/drive/my-drive) (PDF)  
+> - [MIT Learn](https://learn.mit.edu/dashboard/my-lists) (MIT)
 
 
 ### **Phase 4: Deep Learning & LLMs**
@@ -70,7 +72,8 @@ learn-ai/
 ├── 02-math-stats/
 │   ├── 01-coursera-math-for-ml-ds/
 │   ├── 02-math-for-ml/
-│   └── 03-practical-stats/
+│   ├── 03-practical-stats/
+│   └── 04-mit-learn/
 │
 ├── 03-machine-learning/
 │   ├── 01-coursera-ml-specialization/
