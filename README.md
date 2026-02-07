@@ -1,26 +1,28 @@
 # Learn AI – Applied AI & LLM Systems Journey
 
-This repository documents my **structured, long-term learning journey into modern Applied AI** — with a strong focus on **Machine Learning foundations**, **Generative AI**, and **LLM-powered systems used in real businesses**.
+This repository documents my **structured, long-term learning journey into modern Applied AI**, with a strong focus on:
 
-With **13+ years of experience in data, analytics, and machine learning**, this roadmap reflects a **deliberate re-skilling path** toward:
-- LLM-based internal knowledge systems
-- Retrieval-Augmented Generation (RAG)
-- AI engineering and production-ready AI systems
+- **Machine Learning foundations**
+- **Generative AI & LLM-powered systems**
+- **Retrieval-Augmented Generation (RAG)**
+- **AI Engineering & LLMOps**
+
+With **13+ years of experience in data, analytics, and machine learning**, this roadmap represents a **deliberate re-skilling path** toward building **production-grade AI systems** used in real enterprises (internal GPTs, decision assistants, analytics copilots).
 
 This is **not a beginner roadmap**.  
-The focus is on **depth, systems thinking, and real-world applicability**.
+The focus is on **depth, systems thinking, and business relevance**.
 
 ---
 
 ## Learning Roadmap
 
-The journey is organized into **4 practical phases**, progressing from fundamentals to production-grade AI systems.
+The journey is organized into **4 practical phases**, progressing from fundamentals to production-ready AI systems.
 
 ---
 
 ## Phase 1: Foundations – Mathematics & Statistics
 
-**Focus:** Rebuilding mathematical intuition required to reason about models confidently
+**Focus:** Rebuilding mathematical intuition required to reason about ML models confidently
 
 ### Topics
 - Probability & distributions
@@ -29,9 +31,10 @@ The journey is organized into **4 practical phases**, progressing from fundament
 - Practical statistics for data science
 
 ### Resources
-- Mathematics for Machine Learning & Data Science – DeepLearning.AI (Coursera)
-- Mathematics for Machine Learning – Marc Peter Deisenroth
-- Practical Statistics for Data Scientists – Peter Bruce
+- **Coursera**
+  - [Mathematics for Machine Learning and Data Science – DeepLearning.AI](https://www.coursera.org/specializations/mathematics-for-machine-learning-and-data-science)
+- **Book**
+  - [Practical Statistics for Data Scientists – Peter Bruce](https://www.oreilly.com/library/view/practical-statistics-for/9781492072935/)
 
 **Goal:** Explain ML concepts clearly without memorization.
 
@@ -49,8 +52,10 @@ The journey is organized into **4 practical phases**, progressing from fundament
 - Model evaluation & bias–variance tradeoff
 
 ### Resources
-- Machine Learning Specialization – DeepLearning.AI (Coursera)
-- Hands-On Machine Learning – Aurélien Géron
+- **Coursera**
+  - [Machine Learning Specialization – DeepLearning.AI](https://www.coursera.org/specializations/machine-learning-introduction)
+- **Book**
+  - [Hands-On Machine Learning with Scikit-Learn – Aurélien Géron](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)
 
 **Goal:** Strong applied ML intuition transferable across domains.
 
@@ -69,12 +74,12 @@ The journey is organized into **4 practical phases**, progressing from fundament
 - Retrieval-Augmented Generation (RAG)
 - LLM evaluation & accuracy improvement
 
-### Core Courses & Projects
-- Generative AI with Large Language Models – DeepLearning.AI
-- Retrieval Augmented Generation (RAG) – DeepLearning.AI
-- LangChain: Chat With Your Data (Project)
-- Vector Databases: From Embeddings to Applications
-- Improving Accuracy of LLM Applications
+### Core Courses & Projects (Coursera / DeepLearning.AI)
+- [Generative AI with Large Language Models](https://www.coursera.org/learn/generative-ai-with-llms)
+- [Retrieval Augmented Generation (RAG)](https://www.coursera.org/learn/retrieval-augmented-generation-rag)
+- [LangChain: Chat With Your Data (Project)](https://www.coursera.org/projects/langchain-chat-with-your-data-project)
+- [Vector Databases: From Embeddings to Applications (Project)](https://www.coursera.org/projects/vector-databases-from-embeddings-to-applications)
+- [Improving Accuracy of LLM Applications (Project)](https://www.coursera.org/projects/improving-accuracy-of-llm-applications)
 
 **Goal:** Build internal GPT-style applications over enterprise data.
 
@@ -86,15 +91,16 @@ The journey is organized into **4 practical phases**, progressing from fundament
 
 ### Topics
 - LLMOps concepts
-- Prompt and model versioning
+- Prompt and pipeline versioning
 - Evaluation pipelines
-- Observability and monitoring
+- Observability & monitoring
 - API-based AI system design
 
 ### Resources
-- LLMOps (Project)
-- AI Engineering – Chip Huyen
-- Practical MLOps – Noah Gift
+- **Coursera Projects**
+  - [LLMOps (Project)](https://www.coursera.org/projects/llmops)
+- **Book**
+  - [AI Engineering – Chip Huyen](https://www.oreilly.com/library/view/ai-engineering/9781098166298/)
 
 **Goal:** Production-ready AI systems, not demos.
 
@@ -107,7 +113,6 @@ learn-ai/
 │
 ├── 01-foundations-math-stats/
 │ ├── coursera-math-for-ml-ds/
-│ ├── math-for-ml/
 │ └── practical-statistics/
 │
 ├── 02-machine-learning/
@@ -136,7 +141,6 @@ learn-ai/
 └── README.md
 </code></pre>
 
-
 ---
 
 ## Learning Principles
@@ -153,28 +157,28 @@ learn-ai/
 
 **Language:** Python  
 
-**Core Libraries:**  
-- NumPy  
-- pandas  
-- scikit-learn  
+**Core Libraries**
+- NumPy
+- pandas
+- scikit-learn
 
-**Generative AI:**  
-- LangChain  
-- Hugging Face  
-- OpenAI APIs  
+**Generative AI**
+- LangChain
+- Hugging Face
+- OpenAI APIs
 
-**Vector Databases:**  
-- FAISS  
-- Chroma  
+**Vector Databases**
+- FAISS
+- Chroma
 
-**Backend & Ops:**  
-- FastAPI  
-- Docker  
-- MLflow  
+**Backend & Ops**
+- FastAPI
+- Docker
+- MLflow
 
-**Tools:**  
-- Git  
-- Jupyter  
+**Tools**
+- Git
+- Jupyter
 - PyCharm
 
 ---
