@@ -1,0 +1,488 @@
+---
+date: 
+gender: male
+age_in_years: 36
+height_in_cm: 168
+weight_in_kg: 76.8
+neck_in_cm: 42
+waist_in_cm: 92
+hip_in_cm: 
+steps: 
+water_in_ml: 2625
+activity_level: 3
+time_asleep: 
+tags:
+  - "#daily_notes"
+---
+
+> [!goal] Focus 🧘🏻‍♂️  
+> ⏳ `Respect Time` 🏋️ `Train Your Body` 🧠 `Keep Learning` 🔥 `Build Momentum`
+```dataviewjs
+// CONFIG
+const habitTags = [
+  "#early_start", "#quality_sleep",
+  "#fitness", "#upskill", "#movement", "#hydration"
+];
+
+// Current page context
+const page = dv.current();
+const dateStr = page.file.name;
+const momentDate = window.moment(dateStr, "YYYY-MM-DD");
+const isWeekday = !["Saturday", "Sunday"].includes(momentDate.format("dddd"));
+
+// All tasks in the file
+const allTasks = page.file.tasks;
+
+// Filter for relevant tasks that match habit tags
+const habitTasks = allTasks.filter(t =>
+  habitTags.some(tag => t.text.includes(tag))
+);
+
+let expected = 0;
+let completed = 0;
+
+// Process each matching habit task
+for (let task of habitTasks) {
+  const tagMatch = habitTags.find(tag => task.text.includes(tag));
+  if (!tagMatch) continue;
+
+  const isWeekdayOnly = task.text.includes("#weekdays_only");
+  const shouldCount = !isWeekdayOnly || isWeekday;
+
+  if (shouldCount) {
+    expected++;
+    if (task.completed) completed++;
+  }
+}
+
+// Percent and bar setup
+const percent = expected > 0 ? Math.round((completed / expected) * 100) : 0;
+const emoji = percent === 100 ? " 🎉" : "";
+const barWidth = percent === 0 ? "4px" : `${percent}%`;
+
+let barColor = "#f44336"; // red
+if (completed === expected && expected > 0) barColor = "#30c750"; // green
+else if (completed > 0) barColor = "#FFAA33"; // orange
+
+// Render final callout
+dv.paragraph(`
+> [!progress] ${emoji}
+> <div style="margin-top: 4px; margin-bottom: 4px; display: flex; align-items: center; gap: 8px;">
+>   <div style="flex: 1; background: #e0e0e0; border-radius: 8px; height: 12px; overflow: hidden;">
+>     <div style="width: ${barWidth}; background: ${barColor}; height: 100%;"></div>
+>   </div>
+>   <span style="min-width: 40px; font-weight: bold; font-size: 0.9em;">${percent}%</span>
+> </div>
+> <div style="margin-top: -4px; font-size: 0.9em; color: #666;">${completed} of ${expected} habits completed</div>
+`);
+```
+> [!habits]- Daily Habits
+> - [x] 😴 7+ Hours Sleep <!-- #quality_sleep -->
+> - [ ] ⏰ Up by 6 AM <!-- #early_start #weekdays_only -->
+> - [ ] 🏋️‍♂️ Workout <!-- #fitness #weekdays_only -->
+> - [ ] 🚶‍♂️ 10,000+ Steps <!-- #movement -->
+> - [x] 💧 2L Challenge <!-- #hydration -->
+> - [ ] 📚 AI Learning <!-- #upskill #weekdays_only -->
+
+```dataviewjs
+// --- Constants ---
+const minBMI = 18.5;
+const maxBMI = 24.9;
+const safeWeeklyChange = 0.5; // kg fat loss/gain per week
+const gender = dv.current().gender;
+const height = dv.current().height_in_cm;
+const age = dv.current().age_in_years;
+const activityLevel = dv.current().activity_level ?? 1;
+const weightNum = dv.current().weight_in_kg ?? 0;
+const neck = dv.current().neck_in_cm ?? 0;
+const waist = dv.current().waist_in_cm ?? 0;
+const hip = dv.current().hip_in_cm ?? 0;
+const activityFactors = { 1: 1.2, 2: 1.375, 3: 1.55, 4: 1.725, 5: 1.9 };
+const heightMeters = height / 100;
+
+// --- Muscle Mass Targets by Activity Level (Male/Female) ---
+const muscleMassTargets = {
+    male: [
+        { lower: 0.30, upper: 0.34 }, // Sedentary (Level 1)
+        { lower: 0.34, upper: 0.38 }, // Lightly Active (Level 2)
+        { lower: 0.38, upper: 0.42 }, // Moderately Active (Level 3)
+        { lower: 0.42, upper: 0.46 }, // Very Active (Level 4)
+        { lower: 0.46, upper: 0.50 }  // Extra Active (Level 5)
+    ],
+    female: [
+        { lower: 0.25, upper: 0.29 }, // Sedentary (Level 1)
+        { lower: 0.29, upper: 0.32 }, // Lightly Active (Level 2)
+        { lower: 0.32, upper: 0.35 }, // Moderately Active (Level 3)
+        { lower: 0.35, upper: 0.38 }, // Very Active (Level 4)
+        { lower: 0.38, upper: 0.41 }  // Extra Active (Level 5)
+    ]
+};
+
+// --- Helper Functions ---
+const getBMICategory = (bmi) => {
+    if (bmi < 18.5) return "Underweight";
+    if (bmi < 25) return "Healthy Weight";
+    if (bmi < 30) return "Overweight";
+    return "Obese";
+};
+
+const getBMIcolor = (bmi) => bmi < minBMI || bmi > maxBMI ? "#ef4444" : "#22c55e";
+
+const getBodyFatCategory = (pct, gender) => {
+    if (gender === "male") {
+        if (pct < 5) return "Essential Fat";
+        if (pct < 13) return "Athletes";
+        if (pct < 17) return "Fitness";
+        if (pct < 24) return "Average";
+        return "Obese";
+    } else {
+        if (pct < 13) return "Essential Fat";
+        if (pct < 20) return "Athletes";
+        if (pct < 24) return "Fitness";
+        if (pct < 31) return "Average";
+        return "Obese";
+    }
+};
+
+const getBodyFatColor = (pct) => pct > 25 ? "#ef4444" : pct > 18 ? "#8b5cf6" : "#22c55e";
+
+const getMuscleMassGap = (currentMuscleMass, gender, activityLevel) => {
+    const targets = muscleMassTargets[gender][activityLevel - 1];
+    const idealLower = weightNum * targets.lower;
+    const idealUpper = weightNum * targets.upper;
+    let gap = 0;
+    let symbol = "";
+    let color = "#22c55e";
+
+    if (currentMuscleMass < idealLower) {
+        gap = (idealLower - currentMuscleMass).toFixed(1);
+        symbol = "↓";
+        color = "#ef4444";
+    } else if (currentMuscleMass > idealUpper) {
+        gap = (currentMuscleMass - idealUpper).toFixed(1);
+        symbol = "↑";
+        color = "#22c55e";
+    } else {
+        symbol = "—";
+        gap = "0";
+    }
+    return { gap, symbol, color };
+};
+
+const getFatMassGap = (currentFatMass, bodyFatPct, gender) => {
+    const fitnessThreshold = gender === "male" ? 17 : 24;
+    const idealFatMass = (fitnessThreshold / 100) * weightNum;
+    let gap = 0;
+    let symbol = "";
+    let color = "#22c55e";
+
+    if (bodyFatPct > fitnessThreshold) {
+        gap = (currentFatMass - idealFatMass).toFixed(1);
+        symbol = "↑";
+        color = "#ef4444";
+    } else if (bodyFatPct < fitnessThreshold) {
+        gap = (idealFatMass - currentFatMass).toFixed(1);
+        symbol = "↓";
+        color = "#22c55e";
+    } else {
+        symbol = "—";
+        gap = "0";
+    }
+    return { gap, symbol, color };
+};
+
+// const getGoalTimelineText = (weeks, weightDiff) => {
+    // if (weeks === 0) return "0 weeks";
+    // if (weightDiff > 0) return `${weeks} weeks (lose ${safeWeeklyChange}kg/w)`;
+    // return `${weeks} weeks (gain ${safeWeeklyChange}kg/w)`;
+// };
+
+const getGoalTimelineText = (weeks, weightDiff) => {
+    if (weeks === 0) return "0 weeks";
+    if (weightDiff > 0) return `${weeks} weeks`;
+    return `${weeks} weeks`;
+};
+
+// --- Body Fat % Targets ---
+const bodyFatTargets = {
+    male: { essential: [2, 5], athlete: [6, 13], fitness: [14, 17], average: [18, 24], obese: 25 },
+    female: { essential: [10, 13], athlete: [14, 20], fitness: [21, 24], average: [25, 31], obese: 32 }
+};
+
+// --- Calculations ---
+// BMI and healthy range
+const bmi = weightNum / (heightMeters ** 2);
+const minIdealWeight = minBMI * (heightMeters ** 2);
+const maxIdealWeight = maxBMI * (heightMeters ** 2);
+
+// Weight goal and gap from healthy range
+let weightDiff = 0;
+let weightGapSymbol = "";
+let weightGapColor = "#22c55e";
+let goalType = "maintain";
+
+if (weightNum > maxIdealWeight) {
+    weightDiff = weightNum - maxIdealWeight;
+    weightGapSymbol = "↑";
+    weightGapColor = "#ef4444";
+    goalType = "lose";
+} else if (weightNum < minIdealWeight) {
+    weightDiff = minIdealWeight - weightNum;
+    weightGapSymbol = "↓";
+    weightGapColor = "#ef4444";
+    goalType = "gain";
+} else {
+    weightDiff = 0;
+    weightGapSymbol = "—";
+    weightGapColor = "#22c55e";
+}
+
+const weeksToGoal = weightDiff !== 0 ? Math.ceil(Math.abs(weightDiff) / safeWeeklyChange) : 0;
+const goalTimelineText = getGoalTimelineText(weeksToGoal, weightDiff);
+
+// BMR & TDEE (Mifflin-St Jeor)
+let BMR = (10 * weightNum) + (6.25 * height) - (5 * age) + (gender === "male" ? 5 : -161);
+let TDEE = BMR * (activityFactors[activityLevel] || 1.55);
+
+// --- Navy Body Fat % ---
+let bodyFatPct = 0;
+let fatMass = 0;
+let leanMass = 0;
+let muscleMass = 0;
+let FFMI = 0;
+
+if (gender === "male" && neck > 0 && waist > 0) {
+    const log10 = Math.log10;
+    bodyFatPct = 495 / (1.0324 - 0.19077 * log10(waist - neck) + 0.15456 * log10(height)) - 450;
+} else if (gender === "female" && neck > 0 && waist > 0 && hip > 0) {
+    const log10 = Math.log10;
+    bodyFatPct = 495 / (1.29579 - 0.35004 * log10(waist + hip - neck) + 0.22100 * log10(height)) - 450;
+}
+
+if (bodyFatPct > 0) {
+    fatMass = (bodyFatPct / 100) * weightNum;
+    leanMass = weightNum - fatMass;
+    // --- FFMI Calculation ---
+    FFMI = leanMass / (heightMeters ** 2);
+    // --- Muscle Mass Estimation based on 2020 study ---
+	let musclePct = 0;
+	if (gender === "male") {
+	    if (age >= 18 && age <= 35) musclePct = (40 + 44) / 2 / 100; // 42%
+	    else if (age <= 55) musclePct = (36 + 40) / 2 / 100; // 38%
+	    else if (age <= 75) musclePct = (32 + 35) / 2 / 100; // 33.5%
+	    else musclePct = 0.30; // ~30% for 76+
+	} else if (gender === "female") {
+	    if (age >= 18 && age <= 35) musclePct = (31 + 33) / 2 / 100; // 32%
+	    else if (age <= 55) musclePct = (29 + 31) / 2 / 100; // 30%
+	    else if (age <= 75) musclePct = (27 + 30) / 2 / 100; // 28.5%
+	    else musclePct = 0.25; // ~25% for 76+
+	}
+	muscleMass = leanMass * musclePct;
+}
+
+// Calculate muscle mass gap
+const muscleGap = getMuscleMassGap(muscleMass, gender, activityLevel);
+// Calculate fat mass gap
+const fatGap = getFatMassGap(fatMass, bodyFatPct, gender);
+
+// --- Goal Adjustment ---
+let adjustedGoalType = goalType;
+if (bodyFatPct > bodyFatTargets[gender].obese) {
+    adjustedGoalType = "lose";
+} else if (bodyFatPct < bodyFatTargets[gender].athlete[0]) {
+    adjustedGoalType = "gain";
+}
+// Calorie adjustment (7700 cal ≈ 1kg fat)
+let dailyChange = 0;
+if (adjustedGoalType !== "maintain") {
+    dailyChange = (safeWeeklyChange * 7700) / 7;
+}
+const targetCalories = adjustedGoalType === "lose" ? TDEE - dailyChange :
+                       adjustedGoalType === "gain" ? TDEE + dailyChange : TDEE;
+// --- Protein (WHO baseline 0.8 g/kg + activity 0.25 g/kg) ---
+const baseProtein = 0.8; // g/kg baseline
+const proteinPerKg = baseProtein + (activityLevel - 1) * 0.20;
+const proteinGrams = Math.round(proteinPerKg * weightNum);
+// --- Other Macros ---
+const fatCalories = targetCalories * 0.25;
+const fatGrams = Math.round(fatCalories / 9);
+const carbCalories = targetCalories - (proteinGrams * 4 + fatGrams * 9);
+const carbGrams = Math.round(carbCalories / 4);
+// --- Stats Grouped by Section ---
+const sections = [
+    {
+        title: "Basic Metrics",
+        stats: [
+            {
+                label: "Weight",
+                value: `${weightNum.toFixed(1)}`,
+                unit: `kg (${weightGapSymbol} ${Math.abs(weightDiff).toFixed(1)})`,
+                color: weightGapColor
+            },
+            {
+                label: `BMI (${getBMICategory(bmi)})`,
+                value: `${bmi.toFixed(1)}`,
+                unit: "",
+                color: getBMIcolor(bmi)
+            },
+            {
+                label: "To Reach Healthy BMI",
+                value: goalTimelineText,
+                unit: "",
+                color: weeksToGoal > 0 ? "#3b82f6" : "#22c55e"
+            }
+        ]
+    },
+    {
+        title: "Body Composition",
+        stats: [
+            {
+                label: `Fat Mass (${getBodyFatCategory(bodyFatPct, gender)})`,
+                value: `${fatMass.toFixed(1)}`,
+                unit: `kg (${fatGap.symbol} ${fatGap.gap})`,
+                color: fatGap.color
+            },
+            { label: "Lean Mass", value: leanMass.toFixed(1), unit: "kg", color: "#22c55e" },
+            {
+                label: "Muscle Mass (est.)",
+                value: `${muscleMass.toFixed(1)}`,
+                unit: `kg (${muscleGap.symbol} ${muscleGap.gap})`,
+                color: muscleGap.color,
+                note: ""
+            }
+        ]
+    },
+    {
+        title: "Calorie & Macro Targets",
+        stats: [
+            { label: "BMR", value: BMR.toFixed(0), unit: "cal", color: "#22c55e" },
+            { label: "TDEE", value: TDEE.toFixed(0), unit: "cal", color: "#22c55e" },
+            { label: adjustedGoalType === "lose" ? "Daily Deficit" : adjustedGoalType === "gain" ? "Daily Surplus" : "Maintenance", value: dailyChange.toFixed(0), unit: "cal", color: "#ef4444" },
+            { label: "Target Calories", value: targetCalories.toFixed(0), unit: "cal", color: "#3b82f6" },
+            { label: "Protein", value: proteinGrams, unit: "g", color: "#8b5cf6" },
+            { label: "Fat", value: fatGrams, unit: "g", color: "#8b5cf6" },
+            { label: "Carbs", value: carbGrams, unit: "g", color: "#8b5cf6" },
+            { label: "Recommendation", value: adjustedGoalType === "lose" ? "Lose Fat" : adjustedGoalType === "gain" ? "Build Muscle" : "Maintain", unit: "", color: "#f97316" }
+        ]
+    }
+];
+// --- Render Collapsible Sections ---
+const container = dv.container;
+container.innerHTML = "";
+container.style.display = "flex";
+container.style.flexDirection = "column";
+container.style.gap = "8px";
+container.style.padding = "8px";
+if (weightNum === 0 || (gender === "male" && (neck === 0 || waist === 0)) || (gender === "female" && (neck === 0 || waist === 0 || hip === 0))) {
+    const warning = document.createElement("div");
+    warning.textContent = "⚠️ Enter weight and body measurements (neck, waist, hip if female) for full calculations.";
+    warning.style.padding = "8px";
+    warning.style.background = "#fee2e2";
+    warning.style.color = "#991b1b";
+    warning.style.borderRadius = "8px";
+    warning.style.fontSize = "0.9em";
+    container.appendChild(warning);
+} else {
+    sections.forEach(section => {
+        const sectionEl = document.createElement("details");
+        sectionEl.open = true;
+        sectionEl.style.borderRadius = "8px";
+        sectionEl.style.overflow = "hidden";
+        sectionEl.style.boxShadow = "0 1px 5px rgba(0,0,0,0.08)";
+        const summary = document.createElement("summary");
+        summary.textContent = section.title;
+        summary.style.padding = "8px";
+        summary.style.background = "var(--background-primary)";
+        summary.style.cursor = "pointer";
+        summary.style.fontWeight = "light";
+        summary.style.fontSize = "0.9em";
+        const statsContainer = document.createElement("div");
+        statsContainer.style.display = "grid";
+        statsContainer.style.gridTemplateColumns = "repeat(auto-fit, minmax(140px, 1fr))";
+        statsContainer.style.gap = "8px";
+        statsContainer.style.padding = "8px";
+        section.stats.forEach(stat => {
+            const card = document.createElement("div");
+            card.style.padding = "8px";
+            card.style.borderRadius = "8px";
+            card.style.background = "var(--background-primary)";
+            card.style.boxShadow = "0 1px 3px rgba(0,0,0,0.05)";
+            card.style.borderLeft = `3px solid ${stat.color}`;
+            card.style.minHeight = "50px";
+            const value = document.createElement("div");
+            value.textContent = `${stat.value} ${stat.unit}`;
+            value.style.fontSize = "0.9em";
+            value.style.fontWeight = "bold";
+            value.style.color = stat.color;
+            value.style.marginBottom = "2px";
+            const label = document.createElement("div");
+            label.textContent = stat.label;
+            label.style.fontSize = "0.75em";
+            label.style.color = "var(--text-muted)";
+            card.appendChild(value);
+            card.appendChild(label);
+            if (stat.note) {
+                const noteEl = document.createElement("div");
+                noteEl.textContent = stat.note;
+                noteEl.style.fontSize = "0.7em";
+                noteEl.style.color = "#6b7280"; // muted gray
+                card.appendChild(noteEl);
+            }
+            statsContainer.appendChild(card);
+        });
+        sectionEl.appendChild(summary);
+        sectionEl.appendChild(statsContainer);
+        container.appendChild(sectionEl);
+    });
+}
+```
+
+> [!workout]+  
+> **Exercise Type**: Lower Body + Core  
+> - [ ] Leg Press (short range): 2 × 12 × 40–60 kg  
+> - [ ] Seated Hamstring Curl: 3 × 12 × 15–25 kg  
+> - [ ] Seated Calf Rise: 3 × 15 × 20–30 kg  
+> - [ ] Standing Cable Hip Abduction: 2 × 12 × 5–7.5 kg  
+> - [ ] Glute Bridges: 3 × 15 × bodyweight  
+> - [ ] Plank: 2 × 30 sec × bodyweight  
+>   
+> **Notes:**  
+> - Add 5 min warm-up (light cardio or mobility)  
+> - Slow controlled tempo on leg press  
+> - Option: side planks (1 × 20–30 sec per side) if energy allows  
+> - Stretch hamstrings, hip flexors, and calves post-workout  
+>   
+> **Post-workout Reflections:**  
+> - Energy level:  
+> - Soreness:  
+> - Joint feedback:  
+> - Win of the day:  
+> - Adjustments needed for tomorrow:  
+> 
+> Reference: [[Workout Plan - August 2025| 🏋️ Foundation Phase]]
+
+> [!learning]- Today's Learning
+> - [ ] [[learning-note | Concept]]
+> - [ ] [[learning-note | Concept]]
+
+> [!todo]- Today's Tasks
+> ```todoist
+> filter: (today | overdue)
+> groupBy: project
+> sorting: [date, priority]
+> ```
+
+> [!note]- Meeting Notes
+> -
+
+> [!summary]-
+> -
+
+> [!todo]- Tomorrow's Tasks
+> ```todoist
+> filter: tomorrow
+> groupBy: project
+> sorting: [date, priority]
+> ```
+
+<div align="center">🔥 You showed up. Keep the momentum.</div>
